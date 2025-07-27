@@ -28,10 +28,10 @@
 ## Project Structure
 
 📁 CompactCrypt/<br>
-├── compress.py # Huffman compression & decompression<br>
+├── compress.py  # Huffman compression & decompression<br>
 ├── encrypt.py # AES encryption logic<br>
 ├── decrypt.py # AES decryption logic<br>
-├── main.py # Orchestrates the full workflow<br?
+├── main.py # Orchestrates the full workflow<br>
 ├── requirements.txt # Python dependencies<br>
 ├── README.md # This file!<br>
 └── sample_file.txt # Example file to test with<br>
