@@ -1,0 +1,21 @@
+import java.util.*;
+class superClass
+{
+
+	int i;
+	int j;
+	void show()
+	{
+		System.out.println("i="+i + "j="+j);
+	}
+}
+class main
+{
+public static void main(String args[])
+{
+superClass sp=new superClass();
+sp.i=10;
+sp.j=20;
+sp.show();
+}
+}

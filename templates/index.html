@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Operations</title>
+  <link rel="stylesheet" href="../static/styles.css">
+  <!-- <script src="https://unpkg.com/@phosphor-icons/web"></script> -->
+</head>
+<body>
+
+  <div class="top-bar">
+    <h1>CompactCrypt: File Compression with Secure Encryption</h1>
+  </div>
+
+  <div class="card">
+
+    <div id="compress-section">
+      <h2>Compress File</h2>
+      <input type="file" id="compress-file" class="input-box">
+      <button class="btn red" onclick="uploadAndProcess('compress')">Compress</button>
+    </div>
+
+    <div id="encrypt-section">
+      <h2>Encrypt File</h2>
+      <input type="file" id="encrypt-file" class="input-box">
+      <input type="password" id="encrypt-password" placeholder="Enter Password" class="input-box">
+      <button class="btn blue" onclick="uploadAndProcess('encrypt')">Encrypt</button>
+    </div>
+
+    <div id="decrypt-section">
+      <h2>Decrypt File</h2>
+      <input type="file" id="decrypt-file" class="input-box">
+      <input type="password" id="decrypt-password" placeholder="Enter Password" class="input-box">
+      <button class="btn green" onclick="uploadAndProcess('decrypt')">Decrypt</button>
+    </div>
+
+    <div id="decompress-section">
+      <h2>Decompress File</h2>
+      <input type="file" id="decompress-file" class="input-box">
+      <button class="btn yellow" onclick="uploadAndProcess('decompress')">Decompress</button>
+    </div>
+
+  </div>
+
+  <div class="bottom-nav">
+    <i class="ph ph-lock-simple"></i>
+    <i class="ph ph-lock-laminated-open active"></i>
+    <i class="ph ph-user"></i>
+  </div>
+
+  <script src="../static/script.js"></script>
+</body>
+</html>

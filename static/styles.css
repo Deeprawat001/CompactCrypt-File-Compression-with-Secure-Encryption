@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    overflow-y: auto;
+}
+
+.top-bar {
+    background-color: #069d01;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    
+}
+
+.top-bar h1 {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight:600;
+}
+
+.card {
+    background-color: #2a2a2a;
+    padding: 15px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 0 15px rgba(229, 9, 20, 0.5);
+    margin-left: 50px;
+    overflow-y: auto;
+    margin-bottom: 30px;
+}
+
+.card h2 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.input-box {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #444;
+    background-color: #1f1f1f;
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.or {
+    text-align: center;
+    font-weight: bold;
+    color: #bbb;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.btn.red {
+    background-color: #e50914;
+    color: white;
+}
+
+.btn.red:hover {
+    background-color: #ff1c1c;
+}
+
+.btn.blue {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn.blue:hover {
+    background-color: #0056b3;
+}
+
+.btn.green {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn.green:hover {
+    background-color: #218838;
+}
+
+.btn.yellow {
+    background-color: #ffc107;
+    color: black;
+}
+
+.btn.yellow:hover {
+    background-color: #e0a800;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #111;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.bottom-nav i {
+    font-size: 20px;
+    color: #888;
+}
+
+.bottom-nav .active {
+    color: #e50914;
+}
