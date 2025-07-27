@@ -1,4 +1,4 @@
-# 📦🔐 CompactCrypt
+# CompactCrypt
 
 **CompactCrypt** is a simple Python tool that compresses files with **Huffman Encoding** and secures them with **AES Encryption** — keeping your data **small and private**.
 
@@ -8,11 +8,11 @@
 
 ![CompactCrypt GUI](https://github.com/Deeprawat001/CompactCrypt-File-Compression-with-Secure-Encryption/blob/4cf708cf835852c1cea6f8be49ca93b99f9f0d5e/Screenshot%202025-07-27%20150701.png)
 
-- 🔹 **Top bar:** project title.
-- 🔹 **Compress File:** Select a file and compress it with Huffman Encoding.
-- 🔹 **Encrypt File:** Upload a file, enter password, and encrypt using AES.
-- 🔹 **Decrypt File:** Upload encrypted file, enter password, and decrypt it.
-- 🔹 **Decompress File:** Restore the original file after decryption.
+-  **Top bar:** project title.
+-  **Compress File:** Select a file and compress it with Huffman Encoding.
+-  **Encrypt File:** Upload a file, enter password, and encrypt using AES.
+-  **Decrypt File:** Upload encrypted file, enter password, and decrypt it.
+-  **Decompress File:** Restore the original file after decryption.
 
 ---
 
